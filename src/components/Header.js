@@ -1,9 +1,14 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => (
   <div className="header">
-    <p>this is the header</p>
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+    <Link to="/contact">Contact</Link>
+    <Link to="/matt">Matt</Link>
+    <Link to="/viteri">Viteri</Link>
   </div>
 )
 

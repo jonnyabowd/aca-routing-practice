@@ -1,15 +1,17 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import Router from './Router'
 import Header from './components/Header'
-import Home from './components/Home'
+// import Home from './components/Home'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
+      <BrowserRouter>
         <Header />
-        <Home />
-      </Fragment>
+        <Router />
+      </BrowserRouter>
     );
   }
 }

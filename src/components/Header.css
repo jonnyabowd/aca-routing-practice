@@ -1,3 +1,14 @@
 .header {
-  display: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightcoral;
+  min-height: 50px;
+}
+
+a {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: none;
 }
